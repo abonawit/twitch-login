@@ -15,7 +15,7 @@ This sample contains two files:
 2. index.php - This file uses twitch.php to actually authenticate the user.
 
 ## Usage
-Before running this sample, you will need to set four configuration fields at the top of index.js:
+Before running this sample, you will need to set four configuration fields at the top of index.php:
 
 1. clientId - This is the Client ID of your registered application.  You can register an application at [https://www.twitch.tv/settings/connections]
 2. clientSecret - This is the secret generated for you when you register your application, do not share this. In a production environment, it is STRONGLY recommended that you do not store application secrets on your file system or in your source code.
